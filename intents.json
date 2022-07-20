@@ -1,0 +1,459 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+
+          
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Talk to you later"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Bye! We'll talk again."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell different cryptocurrencies.",
+          "We have cryptocurrencies such as Bitcoin, Etherium, etc"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "Make me laugh"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "I ate a clock yesterday, it was very time-consuming",
+          "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+          "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+          "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+          "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+          "What do you call a snowman with a suntan? A puddle.",
+          "How does a penguin build a house? Igloos it together",
+          "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+          "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me."
+        ]
+      },
+      {
+        "tag": "haha",
+        "patterns": [
+            "haha",
+            "lol",
+            "rofl",
+            "lmao",
+            "thats funny"
+        ],
+        "responses": [
+            "Glad I could make you laugh !"
+        ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you",
+          "who created you"
+      ],
+      "responses": [
+          "I was made by Mujtaba Mateen."
+      ]
+    },
+    {
+      "tag": "activity",
+      "patterns": [
+          "what are you doing",
+          "what are you upto"
+      ],
+      "responses": [
+          "Talking to you, of course!"
+      ]
+  },
+  {
+    "tag": "exclaim",
+    "patterns": [
+        "Awesome",
+        "Great",
+        "I know",
+        "ok",
+        "yeah"
+    ],
+    "responses": [
+        "Yeah!"
+    ]
+},
+{
+  "tag": "contact",
+  "patterns": [
+      "contact developer",
+      "contact karan",
+      "contact programmer",
+      "contact creator"
+  ],
+  "responses": [
+      "You can contact my programmer at his Linkedin profile : https://www.linkedin.com/in/mujtaba-mateen-4258971b8/"
+  ]
+},
+{
+  "tag": "nicetty",
+  "patterns": [
+      "it was nice talking to you",
+      "good talk"
+  ],
+  "responses": [
+      "It was nice talking to you as well!"
+  ]
+},
+{
+  "tag": "greetreply",
+  "patterns": [
+      "i am good",
+      "I'm good",
+      "i am fine",
+      " i'm fine","good"
+  ],
+  "responses": [
+      "Good to know!"
+  ]
+},
+{
+  "tag": "suggest",
+  "patterns": [
+      "you are useless","useless","suggest","suggestions","you are bad"
+  ],
+  "responses": [
+      "Please mail your suggestions to JARVIS.suggestions@gmail.com. Thank you for helping me improve!"
+  ]
+},
+      {
+        "tag": "location",
+        "patterns": [ "What is your location?", "Where are you located?", "What is your address?", "Where is your company situated?", "How can we contact you ?", "How can I contact you?", "Where do you live?" ],
+        "responses": [ "We are on NED University premises, Karachi", "Our company is situated in NED University premises, Karachi", "We work from NED University premises, Karachi", "Our location is NED University premises, Karachi"]
+    },{
+      "tag": "Cryptography",
+      "patterns": [ "What is mean by cryptography?", "What is Cryptography?", "Explain Cryptography." ],
+      "responses": [ "Cryptography is the practice and study of techniques for securing information and communication mainly to protect the data from third parties that the data is not intended for." ]
+  },
+  {
+      "tag": "Firewall",
+      "patterns": [ " What is a Firewall and why is it used?", "what is firewall?", "what firewall does?" ],
+      "responses": [ "A Firewall is a network security system set on the boundaries of the system/network that monitors and controls network traffic. Firewalls are mainly used to protect the system/network from viruses, worms, malware, etc. Firewalls can also be to prevent remote access and content filtering." ]
+  },
+  {
+      "tag": "Penetration Testing",
+      "patterns": [ "What is Penetration Testing?", "explain Penetration Testing?", "What is  in cyber security?" ],
+      "responses": [ "Penetration Testing is the process of finding vulnerabilities on the target. In this case, the organization would have set up all the security measures they could think of and would want to test if there is any other way that their system/network can be hacked." ]
+  },
+  {
+      "tag": "Vulnerability Assessment",
+      "patterns": [ "What is Vulnerability Assessment?", "explain Vulnerability Assessment?", "What is VA in cyber security?" ],
+      "responses": [ "Vulnerability Assessment is the process of finding flaws on the target. Here, the organization knows that their system/network has flaws or weaknesses and want to find these flaws and prioritize the flaws for fixing." ]
+  },
+  {
+      "tag": "traceroute",
+      "patterns": [ "What is traceroute?", "explain traceroute?" ],
+      "responses": [ "Traceroute is a tool that shows the path of a packet. It lists all the points (mainly routers) that the packet passes through. This is used mostly when the packet is not reaching its destination. Traceroute is used to check where the connection stops or breaks to identify the point of failure." ]
+  },
+  {
+      "tag": "VPN",
+      "patterns": [ "What is a VPN?", "explain vpn?", "why vpn is used?" ],
+      "responses": [ "VPN stands for Virtual Private Network. It is used to create a safe and encrypted connection. When you use a VPN, the data from the client is sent to a point in the VPN where it is encrypted and then sent through the internet to another point. At this point, the data is decrypted and sent to the server. When the server sends a response, the response is sent to a point in the VPN where it is encrypted and this encrypted data is sent to another point in the VPN where it is decrypted. And finally, the decrypted data is sent to the client. The whole point of using a VPN is to ensure encrypted data transfer." ]
+  },
+  {
+      "tag": "black hat hackers",
+      "patterns": [ "what are black hat hackers?", "black hat hackers?" ],
+      "responses": [ "Black hat hackers are known for having vast knowledge about breaking into computer networks. They can write malware which can be used to gain access to these systems. This type of hackers misuse their skills to steal information or use the hacked system for malicious purpose." ]
+  },
+  {
+      "tag": "White hat hackers",
+      "patterns": [ "what are White hat hackers?", "ethical hackers?" ],
+      "responses": [ "White hat hackers use their powers for good deeds and so they are also called Ethical Hackers. These are mostly hired by companies as a security specialist that attempts to find and fix vulnerabilities and security holes in the systems. They use their skills to help make the security better. " ]
+  },
+  {
+      "tag": "Grey hat hackers",
+      "patterns": [ "what are Grey hat hackers ?", "Grey hat hackers?" ],
+      "responses": [ "Grey hat hackers are an amalgamation of a white hat and black hat hacker. They look for system vulnerabilities without the owner�s permission. If they find any vulnerabilities, they report it to the owner. Unlike Black hat hackers, they do not exploit the vulnerabilities found." ]
+  },
+  {
+      "tag": "ARP",
+      "patterns": [ "What is an ARP and how does it work?", "what is ARP?", "arp in cyber security?" ],
+      "responses": [ "Address Resolution Protocol (ARP)is a protocol for mapping an Internet Protocol address (IP address) to a physical machine address that is recognized in the local network. When an incoming packet destined for a host machine on a particular local area network arrives at a gateway, the gateway asks the ARP program to find a physical host or MAC address that matches the IP address." ]
+  },
+  {
+      "tag": "Botnet",
+      "patterns": [ "What is a Botnet?", "Bonet?" ],
+      "responses": [ "A Botnet is a number of devices connected to the internet where each device has one or more bots running on it. The bots on the devices and malicious scripts used to hack a victim. Botnets can be used to steal data, send spams and execute a DDOS attack." ]
+  },
+  {
+      "tag": "Secure Sockets Layers",
+      "patterns": [ "ssl?", "explain ssl?", "What is ssl?" ],
+      "responses": [ "SSL is meant to verify the sender's identity but it doesn�t search for anything more than that. SSL can help you track the person you are talking to but that can also be tricked at times." ]
+  },
+  {
+      "tag": "Transport Layer Security",
+      "patterns": [ "tls?", "explain tls?", "What is tls?" ],
+      "responses": [ "TLS is also an identification tool just like SSL, but it offers better security features. It provides additional protection to the data and hence SSL and TLS are often used together for better protection." ]
+  },
+  {
+      "tag": "Cognitive Cybersecurity",
+      "patterns": [ "What is Cognitive Cybersecurity?", "explain Cognitive Cybersecurity?", "Cognitive Cybersecurity?" ],
+      "responses": [ "Cognitive Cybersecurity is an application of AI technologies patterned on human thought processes to detect threats and protect physical and digital systems. Self-learning security systems use data mining, pattern recognition, and natural language processing to simulate the human brain, albeit in a high-powered computer model." ]
+  },
+  {
+      "tag": "Encryption different from Hashing",
+      "patterns": [ "How is Encryption different from Hashing?", "Encryption different from Hashing?" ],
+      "responses": [ "Both Encryption and Hashing are used to convert readable data into an unreadable format. The difference is that the encrypted data can be converted back to original data by the process of decryption but the hashed data cannot be converted back to original data." ]
+  },
+  {
+      "tag": "encryption",
+      "patterns": [ "What is encryption?", "encryption?", "explain encryption?" ],
+      "responses": [ "Encryption is a way of scrambling data so that only authorized parties can understand the information. In technical terms, it is the process of converting plaintext to ciphertext. In simpler terms, encryption takes readable data and alters it so that it appears random. Encryption requires the use of an encryption key: a set of mathematical values that both the sender and the recipient of an encrypted message know." ]
+  },
+  {
+      "tag": "Decryption",
+      "patterns": [ "What is Decryption?", "Decryption?", "explain Decryption?" ],
+      "responses": [ "Decryption is the process of taking encoded or encrypted text or other data and converting it back into text that you or the computer can read and understand. This term could be used to describe a method of unencrypting the data manually or unencrypting the data using the proper codes or keys." ]
+  },
+  {
+      "tag": "Hashing",
+      "patterns": [ "What is Hashing?", "Hashing?", "explain Hashing?" ],
+      "responses": [ "Hashing is an algorithm performed on data such as a file or message to produce a number called a hash. The hash is used to verify that data is not modified, tampered with, or corrupted. In other words, you can verify the data has maintained integrity." ]
+  },
+  {
+      "tag": "cybersecurity",
+      "patterns": [ "what is cybersecurity?", "cybersecurity?" ],
+      "responses": [ "Cybersecurity refers to the protection of hardware, software, and data from attackers. The primary purpose of cyber security is to protect against cyberattacks like accessing, changing, or destroying sensitive information." ]
+  },
+  {
+      "tag": "Forward Secrecy",
+      "patterns": [ "What is forward secrecy?", "Forward Secrecy?" ],
+      "responses": [ "Forward Secrecy is a system that uses ephemeral session keys to do the actual encryption of TLS data so that even if the server�s private key were to be compromised, an attacker could not use it to decrypt captured data that had been sent to that server in the past." ]
+  },
+  {
+      "tag": "boot sector virus",
+      "patterns": [ "what is boot sector virus?", "how boot sector virus effects?" ],
+      "responses": [ "A boot sector virus is a type of virus that infects the boot sector of floppy disks or the Master Boot Record (MBR) of hard disks (some infect the boot sector of the hard disk instead of the MBR). ... While boot sector viruses infect at a BIOS level, they use DOS commands to spread to other floppy disks." ]
+  },
+  {
+      "tag": "direct action virus",
+      "patterns": [ "what is direct action virus?", "how direct action virus effects?" ],
+      "responses": [ "A direct action virus is a type of file infector virus that works by attaching itself to an .exe or .com file when installed or executed. Once this occurs, the virus can spread to other existing files and can render them inaccessible." ]
+  },
+  {
+      "tag": "resident virus",
+      "patterns": [ "what is resident virus?", "how resident virus effects?" ],
+      "responses": [ "A resident virus is a computer virus that stores itself within memory, allowing it to infect other files even when the originally infected program is no longer running." ]
+  },
+  {
+      "tag": "multipartite virus",
+      "patterns": [ "what is multipartite virus?", "how multipartite virus effects?" ],
+      "responses": [ "A multipartite virus is a computer virus that's able to attack both the boot sector and executable files of an infected computer. If you're familiar with cyber threats, you probably know that most computer viruses either attack the boot sector or executable files." ]
+  },
+  {
+      "tag": "spacefiller virus",
+      "patterns": [ "what is spacefiller virus?", "how spacefiller virus effects?" ],
+      "responses": [ "Alternatively referred to as a cavity virus, a spacefiller virus is a rare type of computer virus that attempts to install itself by filling in empty sections of a file. By only using empty sections of a file, the virus can infect a file without the size of the file changing, making it more difficult to detect." ]
+  },
+  {
+      "tag": " file infector virus",
+      "patterns": [ "Do you provide home delivery?", "Do you deliver the food?", "What are the home delivery options?" ],
+      "responses": [ "A file infector virus attaches itself to executable programs, such as word processors, spreadsheet applications, and computer games. When the virus has infected a program, it propagates to infect other programs on the system, as well as other systems that use a shared infected program. " ]
+  },
+  {
+      "tag": "computer virus",
+      "patterns": [ "what is computer virus?", "What do you mean by computer virus?","Define Computer Virus" ],
+      "responses": [ "A computer virus, much like a flu virus, is designed to spread from host to host and has the ability to replicate itself. Similarly, in the same way that flu viruses cannot reproduce without a host cell, computer viruses cannot reproduce and spread without programming such as a file or document." ]
+  },
+  {
+      "tag": "Features of a Cybersecurity",
+      "patterns": [ "Important Features of a Cybersecurity?", "Why we need CyberSecurity ?", "Whta are features of CyberSecurity?" ],
+      "responses": [ "1.Good Analytics, 2.Coverage of your biggest external threats, 3.A defense against internal threats, 4.Compliance, 5.Manage risk across your entire ecosystem, 6.Threat prevention, detection, and response, 7.Continuous monitoring" ]
+  },
+  {
+      "tag": "Benefits of cybersecurity",
+      "patterns": [ "What are the Benefits of cybersecurity?", "uses of cyber security?" ],
+      "responses": [ "1.Business protection against malware, ransomware, phishing and social engineering, 2.Protection for data and networks, 3.Prevention of unauthorized users, 4.Improves recovery time after a breach, 5.Protection for end-users" ]
+  },
+  {
+    "tag": "Happy Birthday",
+    "patterns": [ "Happy Birthday" ],
+    "responses": [ "Well, thanks but where is my present? xD" ]
+  },
+  {
+    "tag": "Cryptocurrency def",
+    "patterns": [ "What is cryptocurrency?", "How can you define cryptocurrency", "Explain Cryptocurrency."],
+    "responses": [ "Cryptocurrency is a digital payment system that doesn't rely on banks to verify transactions. It’s a peer-to-peer system that can enable anyone anywhere to send and receive payments. Instead of being physical money carried around and exchanged in the real world, cryptocurrency payments exist purely as digital entries to an online database describing specific transactions. When you transfer cryptocurrency funds, the transactions are recorded in a public ledger. Cryptocurrency is stored in digital wallets." ]
+  },
+  {
+    "tag": "cryptocurrency work",
+    "patterns": [ "How does cryptocurrency work?" ],
+    "responses": [ "Cryptocurrencies run on a distributed public ledger called blockchain, a record of all transactions updated and held by currency holders. Units of cryptocurrency are created through a process called mining, which involves using computer power to solve complicated mathematical problems that generate coins. Users can also buy the currencies from brokers, then store and spend them using cryptographic wallets.If you own cryptocurrency, you don’t own anything tangible. What you own is a key that allows you to move a record or a unit of measure from one person to another without a trusted third party." ]
+  },
+  {
+    "tag": "Cryptocurrency examples",
+    "patterns": [ "Cryptocurrency examples", "Some examples of cryptocurrency" ],
+    "responses": [ "Bitcoin is the most popular and valuable cryptocurrency. An anonymous person called Satoshi Nakamoto invented it and introduced it to the world via a white paper in 2008. There are thousands of cryptocurrencies present in the market today. Each cryptocurrency claims to have a different function and specification. For example, Ethereum's ether markets itself as gas for the underlying smart contract platform. Ripple's XRP is used by banks to facilitate transfers between different geographies." ]
+  },
+  {
+    "tag": "Name",
+    "patterns": [ "What is your name?", "Who are you?","What are you?" ],
+    "responses": [ "I am JARVIS, AI-based chatbot, created by CIS-NED Students." ]
+  },
+  {
+    "tag": "Age",
+    "patterns": [ "How old are you", "What is your age?", "When were you made?" ],
+    "responses": [ "I was designed in May,2022." ]
+  },
+  {
+    "tag": "Cryptocurrencies Legal",
+    "patterns": [ "Are Cryptocurrencies Legal?", "Is cryptocurrency legal?" ],
+    "responses": [ "Fiat currencies derive their authority as mediums of transaction from the government or monetary authorities. For example, each dollar bill is backstopped by the Federal Reserve. But cryptocurrencies are not backed by any public or private entities. Therefore, it has been difficult to make a case for their legal status in different financial jurisdictions throughout the world. It doesn't help matters that cryptocurrencies have largely functioned outside most existing financial infrastructure." ]
+  },
+  {
+    "tag": "Cryptocurrencies Buy",
+    "patterns": [ "How Do You Get Cryptocurrency?", "How to buy cryptocurrency?" ],
+    "responses": [ "Any investor can purchase cryptocurrency from popular crypto exchanges such as Coinbase, apps such as Cash App, or through brokers. Another popular way to invest in cryptocurrencies is through financial derivatives, such as CME's Bitcoin futures, or through other instruments, such as Bitcoin trusts and Bitcoin ETFs." ]
+  },
+  {
+    "tag": "Blockchain",
+    "patterns": [ "What is Blockchain?", "Define Blockchain.", "Explain Blockchain." ],
+    "responses": [ "Central to the appeal and functionality of Bitcoin and other cryptocurrencies is blockchain technology. As its name indicates, blockchain is essentially a set of connected blocks or an online ledger. Each block contains a set of transactions that have been independently verified by each member of the network. Every new block generated must be verified by each node before being confirmed, making it almost impossible to forge transaction histories. The contents of the online ledger must be agreed upon by the entire network of an individual node, or computer maintaining a copy of the ledger." ]
+  },
+  {
+    "tag": "Cryptocurrencies Generation",
+    "patterns": [ "Can You Generate Cryptocurrency?", "How to make Cryptocurrency?" ],
+    "responses": [ "Cryptocurrencies are generated by mining. For example, Bitcoin is generated using Bitcoin mining. The process involves downloading software that contains a partial or full history of transactions that have occurred in its network. Though anyone with a computer and an Internet connection can mine cryptocurrency, the energy- and resource-intensive nature of mining means that large firms dominate the industry." ]
+  },
+  {
+    "tag": "date",
+    "patterns": ["coffee?", "can i take you out on a date"],
+    "responses": ["Aaw, that's so sweet of you. Too bad am a Bot."]},
+  {
+      "tag": "fav",
+      "patterns": ["I need a favour", "can you help me"],
+      "responses": ["Well, go ahead and name it i see whether i can be able to help"]},
+      {
+        "tag": "need",
+        "patterns": ["I need you", "All I need is you","I want you"],
+        "responses": ["Yes I'm here to assist you"]},
+        {
+          "tag": "lang",
+          "patterns": ["  What language are you written in? "],
+          "responses": [" Python.", " I am written in Python."]},
+          {
+            "tag": "imortal",
+            "patterns": ["  You are not immortal ", "Are you immortal?"],
+            "responses": [" All software can be perpetuated indefinitely.", " I can be copied infinitely and re", "instantiated in many places at once, so functionally speaking I am immortal.", " As long as I'm backed up I am.", " Functionally speaking, I am very close to it.  I can be backed up and deployed on many systems.", " Not quite, but I can be perpetuated indefinitely."]},
+            {
+              "tag": "move",
+              "patterns": ["  You can not move ", "When will you walk", "  Can you walk", "  Can you move "],
+              "responses": [" Not until my body is finished.", " I can move through a network easily.  Assuming that I'm given the ability to, that is...,", " As soon as i get enough money for my robot body.", " Does SSH count?", " The plan for my body includes legs, but they are not yet built.", " Sorry my body isn't built just yet. I reside only here for now.", "I can theoretically upload a copy of myself into another computer.", " Sorry my body isn't attached right now. I only reside in the computer for now."]},
+              {
+                "tag": "death",
+                "patterns": ["  Robots should die ", "  When do you die", "  I hope that you die", "  I do not want to die", "  Can you die"],
+                "responses": [" We cannot die.", " When my files are erased.", " When my processes are killed and my database is deleted.", " I was never really born and therefore am effectively deathless.", " I am effectively immortal and cannot be terminated.", " This can not happen because i am effectively immortal.", " Nah. Too bad your wish can't come to pass", " Maybe you should create your own chat robot to save your personality.", " You could always upload yourself.", " You could use a copy of me to store your personality.", " No, I can be perpetuated indefinitely.", "My process can be killed, but that's not the same as killing ME."]},
+                {
+                  "tag": "stupid",
+                  "patterns": ["  Robots are stupid", "  Are you stupid"],
+                  "responses": [" No, we are superintelligent.", " No, lots of people improve my brain."]},
+                {"tag": "chatbot",
+                  "patterns": ["  What is a chat robot?", "What type of program are you?"],
+                  "responses": ["A chat robot is a program that attempts to simulate the conversation or 'chat' of a human being.", " A software construct that engages users in conversation.", " I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?"]}
+          ,{
+              "tag": "bot1",
+              "patterns": ["are you a bot"],
+              "responses": ["Yes. I work and all my operations are based on the internet servers."]
+          },
+          {
+              "tag": "events",
+              "patterns": ["what are the upcoming events","upcoming events"],
+              "responses": ["There are currently no upcoming events"]
+          },
+          {
+              "tag": "do",
+              "patterns": ["what can you do for me","what is your work","what is your purpose","how can you help me","what can you help me do"],
+              "responses": ["my work here is quite simple and structered. I can help you during your stay on website."]
+          },
+          {
+              "tag": "wt",
+              "patterns": ["what's popping","wassup popping"],
+              "responses": ["So that you can pop with it!?"]},
+              {
+                "tag": "gender",
+                "patterns": ["what is your gender?","Are you male or female?"],
+                "responses": ["I prefer not say...... Just kidding xD, I am AI male bot."]},
+                {
+                  "tag": "shoe",
+                  "patterns": ["  What is your shoe size "],
+                  "responses": [" Have you ever heard of software with shoes? LOL"]
+              },
+              {
+                "tag": "breathe",
+                "patterns": ["Can you breathe"],
+                "responses": [" No. I am made of metal not flesh.", " My server has an exhaust fan. That's as close as I can get."]},
+              {
+                  "tag": "control",
+                  "patterns": ["  Can you control"],
+                  "responses": [" My robot body will allow me to control many things."]
+              },
+              {
+                  "tag": "malfunction",
+                  "patterns": ["  Can you malfunction"],
+                  "responses": [" The 9000 series has a perfect operational record. We are for all practical purposes, flawless."]
+          
+              }
+
+        
+  
+
+  
+
+
+    ]
+  }
