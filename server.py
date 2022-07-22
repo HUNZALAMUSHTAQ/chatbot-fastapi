@@ -4,6 +4,11 @@ from model import Query
 from fastapi.responses import RedirectResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from datetime import datetime
+from fastapi.middleware.cors import CORSMiddleware
+
+
+
+
 
 import bot
 
@@ -24,22 +29,6 @@ async def root():
     return data
 
 
-# @app.get("/bot/{question}")
-# async def chatbot(question: str):
-
-#     answer = bot.Bot(question)
-#     print(answer)
-#     return {"Name": "JARVIS Inc.", "bot_response": answer}
-
-
-# @app.post("/test")
-# async def test(request : Request):
-#     data = await request.json()
-#     if(data["asd"]):
-#         print("asd")
-#     return await request.json()
-
-
 @app.get("/bot/")
 async def chatbot():
     data = {
@@ -52,13 +41,31 @@ async def chatbot():
 @app.post("/bot/")
 async def create_query(query: Query):
     question = query.question
-    answer = bot.Bot(question)
+    try: 
+        answer = bot.Bot(question)
+    except Exception as e :
+        return {"error": "Something Went wrong the server or bot", "exception": e}
+    
     now = datetime.now
     data = {"bot": "Jarvis Inc.", "answer": answer, "time": now()}
 
     return data
 
 
-@app.exception_handler(StarletteHTTPException)
-async def custom_http_exception_handler(request, exc):
-    return RedirectResponse("/")
+# @app.exception_handler(StarletteHTTPException)
+# async def custom_http_exception_handler(request, exc):
+#     return RedirectResponse("/")
+
+
+# config 
+origins = [
+    "http://localhost:3000"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
